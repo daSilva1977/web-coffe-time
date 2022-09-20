@@ -1,0 +1,289 @@
+/* inicio estilos generales */
+* {
+  margin: 0p;
+  padding: 0px;
+}
+a {
+  text-decoration: none;
+  color: blak;
+}
+ul,
+ol {
+  list-style: none;
+}
+html {
+  font-family: "poppins", sans-serif;
+  color: white;
+}
+.fixed {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+header {
+  background-image: linear-gradient(
+    90deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(29, 199, 253, 1) 30%,
+    rgb(112, 69, 252) 100%
+  );
+  padding: 10px;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+.navegador {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 15px 15px;
+}
+.navegador li {
+  padding-left: 20px;
+}
+.navegador a {
+  color: white;
+  font-size: 1rem;
+  font-weight: 500;
+}
+@media (min-width: 992px) {
+  .fixed {
+    bottom: 40px;
+    right: 40px;
+  }
+  header {
+    position: fixed;
+    width: 100vw;
+    height: 55px;
+    display: grid;
+    grid-template-columns: 200px auto 100px;
+    justify-content: space-around;
+    align-items: start;
+  }
+  .navegador {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    justify-content: center;
+    gap: 0 20px;
+  }
+  .pagina_princial ul li {
+    display: block;
+  }
+  .Cafemesa {
+    display: flex;
+    flex-direction: row;
+    background-image: url(../img/portada\ principal.svg);
+    background-color: #1d3557;
+    padding: 250px;
+    background-size: cover;
+    top: 10px;
+  }
+  .Cafetasa {
+    display: grid;
+    grid-template-rows: 1fr 2.5fr;
+    background-color: #1d3557;
+    background-image: linear-gradient(
+      90deg,
+      rgb(29, 5, 136) 0%,
+      rgb(3, 4, 65) 30%,
+      rgb(112, 69, 252) 100%
+    );
+    background-position: left;
+    padding: 70px 40px;
+    padding-top: 50px;
+    color: white;
+    text-align: center;
+  }
+  .cafetasa_imagen {
+    width: 95%;
+  }
+  .Patisserie {
+    background-color: #1d3557;
+    background-image: linear-gradient(
+      90deg,
+      rgb(29, 5, 136) 0%,
+      rgb(3, 4, 65) 30%,
+      rgb(112, 69, 252) 100%
+    );
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 45px;
+    padding: 70px 40px;
+  }
+  .Especiales {
+    background-image: linear-gradient(
+      90deg,
+      rgba(131, 58, 180, 1) 0%,
+      rgba(29, 199, 253, 1) 30%,
+      rgb(112, 69, 252) 100%
+    );
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    padding: 70px 40px;
+    gap: 20px;
+  }
+  .Especiales_texto2 {
+    padding-left: 80px;
+    text-align: justify;
+    gap: 10px;
+  }
+  .contacto {
+    background-color: #006d77;
+    display: flex;
+    gap: 15px;
+  }
+  /* Fin estilos generales */
+  /* Inicio nosotros y vos */
+  .texto {
+    display: grid;
+    grid-template-rows: 1fr;
+    padding: 5rem;
+    background-image: linear-gradient(
+      90deg,
+      rgb(214, 130, 46) 25%,
+      rgb(3, 4, 65) 100%,
+      rgb(121, 76, 8) 35%
+    );
+    text-align: center;
+    border-radius: 60%;
+  }
+  .texto:hover {
+  transform: scale(1.1);
+  }
+  }
+  form { 
+    background-color: #006d77;
+    display: block;
+  }
+  .formulario_vos {
+    display: grid;
+    grid-template-columns: auto;
+    background-image: linear-gradient(
+      90deg,
+      rgb(29, 5, 136) 0%,
+      rgb(3, 4, 65) 30%,
+      rgb(112, 69, 252) 100%
+    );
+    padding: 5%;
+  }
+  /* Fin estidos nosotros y vos */
+  /* Inicio estilos frios y calientes */
+  table {
+    background-image: linear-gradient(
+      90deg,
+      rgb(29, 5, 136) 0%,
+      rgb(3, 4, 65) 30%,
+      rgb(112, 69, 252) 100%
+    );
+    display: grid;
+    justify-content: center;
+    padding: 70px;
+  }
+  .pedidos_frios {
+    padding: 30px;
+    background-color: #010710;
+  }
+  .pedidos_frios {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .pedidos_calientes {
+    padding: 30px;
+    background-color: #010710;
+  }
+  .pedidos_calientes {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  /* Fin estilos Frios y calientes */
+  /* inicio estilos experiencia */
+  .forma_experiencia {
+    padding: 30px;
+    background-color: #010710;
+  }
+  .tienda {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+  }
+  .tienda {
+    padding-inline-start: 80px;
+    background-image: linear-gradient(
+      90deg,
+      rgb(29, 5, 136) 0%,
+      rgb(3, 4, 65) 30%,
+      rgb(112, 69, 252) 100%
+    );
+    display: inline-block;
+    text-align: center;
+    font-size: x-large;
+  }
+  .elige {
+    display: flex;
+    flex-direction: row;
+    margin-left: 100px;
+    margin-right: 100px;
+    justify-content: space-between;
+  }
+  .elige2 {
+    display: flex;
+    flex-direction: row;
+    margin-left: 100px;
+    margin-right: 100px;
+    justify-content: space-between;
+    animation-name: auto;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-duration: 2s;
+    animation-delay: 3s;
+  }
+  /* fin estilos experiencia */
+  /* inicio estilos Nuestro Cafe */
+  .video1 {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    background-image: linear-gradient(
+      90deg,
+      rgb(29, 5, 136) 0%,
+      rgb(3, 4, 65) 30%,
+      rgb(112, 69, 252) 100%
+    );
+    padding: 8%;
+    gap: 40px;
+  }
+  .texto_video1 {
+    text-align: justify;
+  }
+  .video2 {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    background-image: linear-gradient(
+      90deg,
+      rgb(29, 5, 136) 0%,
+      rgb(3, 4, 65) 30%,
+      rgb(112, 69, 252) 100%
+    );
+    padding: 8%;
+    gap: 40px;
+  }
+  .texto_video2 {
+    text-align: center;
+  }
+/* incion de animacion */
+@keyframes auto {
+  0%,
+  100% {
+    transform: translate(-10px, 10px);
+  }
+  25% {
+    transform: translate(25px, -25px);
+  }
+  50% {
+    transform: translate(-25px, 25px);
+  }
+  65% {
+    transform: translate(-15px, -15px);
+  }
+}
