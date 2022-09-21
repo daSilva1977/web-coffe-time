@@ -240,6 +240,11 @@ header {
     animation-delay: 3s;
   }
   /* fin estilos experiencia */
+  .forma_de_pago{
+    display: flex;
+    flex-direction:row;
+    padding: 1%;
+  }
   /* inicio estilos Nuestro Cafe */
   .video1 {
     display: grid;
