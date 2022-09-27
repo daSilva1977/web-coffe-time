@@ -12,8 +12,8 @@ ol {
   list-style: none;
 }
 html {
-  font-family: "poppins", sans-serif;
-  color: white;
+  font-family: "poppins", sans-serif !important;
+  color: white !important;
 }
 .fixed {
   position: fixed;
