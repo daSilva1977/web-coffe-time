@@ -82,7 +82,7 @@ header {
   background-position: left;
   padding: 10px;
   padding-top: 5px;
-  color: white;
+  color: white !important;
   text-align: center;
 }
 .cafetasa_titulo{
@@ -275,7 +275,7 @@ form {
     background-position: left;
     padding: 70px 40px;
     padding-top: 50px;
-    color: white;
+    color: white !important;
     text-align: center;
   }
   .patisserie {
