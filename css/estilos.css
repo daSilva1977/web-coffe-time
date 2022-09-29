@@ -20,7 +20,7 @@ html {
   bottom: 20px;
   right: 20px;
 }
-/* Fin estilos generales */
+/* fin estilos generales */
 /* inicio estilos index */
 header {
   background-image: linear-gradient(
@@ -51,7 +51,7 @@ header {
   font-weight: 500;
 }
 header {
-  width: 95vw;
+  width: 100vw;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -70,8 +70,6 @@ header {
   top: 10px;
 }
 .cafetasa {
-  display: flex;
-  flex-direction: column;
   background-color: #1d3557;
   background-image: linear-gradient(
     90deg,
@@ -85,11 +83,10 @@ header {
   color: white !important;
   text-align: center;
 }
-.cafetasa_titulo{
+.cafetasa_titulo {
   padding: 10px;
-}
-.cafetasa_imagen {
-  width: 95%;
+  background-position: center;
+  text-align: center;
 }
 .patisserie {
   background-color: #1d3557;
@@ -151,12 +148,7 @@ form {
 .formulario_vos {
   display: grid;
   grid-template-columns: auto;
-  background-image: linear-gradient(
-    90deg,
-    rgb(29, 5, 136) 0%,
-    rgb(3, 4, 65) 30%,
-    rgb(112, 69, 252) 100%
-  );
+  background-color: #006d77;
   padding: 5%;
 }
 /* fin estilos nosotros y vos celulares */
@@ -164,8 +156,8 @@ form {
 .tabla_calientes {
   background-image: linear-gradient(
     90deg,
-    rgb(29, 5, 136) 0%,
-    rgb(3, 4, 65) 30%,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(29, 199, 253, 1) 30%,
     rgb(112, 69, 252) 100%
   );
   display: flex;
@@ -175,8 +167,8 @@ form {
 .tabla_frios {
   background-image: linear-gradient(
     90deg,
-    rgb(29, 5, 136) 0%,
-    rgb(3, 4, 65) 30%,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(29, 199, 253, 1) 30%,
     rgb(112, 69, 252) 100%
   );
   display: grid;
@@ -187,53 +179,31 @@ form {
   padding: 10px;
   background-color: #010710;
 }
-.pedidos_frios {
-  display: grid;
-  grid-template-rows: 1fr 1fr;
-}
 .pedidos_calientes {
   padding: 10px;
   background-color: #010710;
-}
-.pedidos_calientes {
-  display: grid;
-  grid-template-rows: 1fr 1fr;
 }
 /* fin estilos frios y caliente celulares */
 /* Inicio experiencia celulares */
 .forma_experiencia {
-  padding: 10px;
   background-color: #010710;
+  width: 100vw;
 }
 .tienda {
-  display: flex;
-  flex-direction: column;
   margin: 5px;
 }
 .tienda {
-  padding-inline-start: 80px;
   background-image: linear-gradient(
     90deg,
     rgb(29, 5, 136) 0%,
     rgb(3, 4, 65) 30%,
     rgb(112, 69, 252) 100%
   );
-  display: inline-block;
-  text-align: center;
-  font-size: x-large;
 }
 .elige {
-  display: flex;
-  flex-direction: row;
-  margin-left: 10px;
-  margin-right: 10px;
   justify-content: space-between;
 }
 .elige2 {
-  display: flex;
-  flex-direction: row;
-  margin-left: 10px;
-  margin-right: 10px;
   justify-content: space-between;
   animation-name: auto;
   animation-iteration-count: infinite;
@@ -242,6 +212,37 @@ form {
   animation-delay: 3s;
 }
 /* fin experiencia celulares */
+/* inicio estilos Nuestro Cafe celulares */
+.video1 {
+  display: flex;
+  flex-direction: column;
+  background-image: linear-gradient(
+    90deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(29, 199, 253, 1) 30%,
+    rgb(112, 69, 252) 100%
+  );
+  padding: 10px;
+  gap: 2px;
+}
+.texto_video1 {
+  text-align: justify;
+}
+.video2 {
+  display: flex;
+  flex-direction: column;
+  background-image: linear-gradient(
+    90deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(29, 199, 253, 1) 30%,
+    rgb(112, 69, 252) 100%
+  );
+  padding: 10px;
+  gap: 2px;
+}
+.texto_video2 {
+  text-align: justify;
+}
 @media (min-width: 992px) {
   .fixed {
     bottom: 40px;
@@ -263,8 +264,6 @@ form {
     gap: 0 20px;
   }
   .cafetasa {
-    display: grid;
-    grid-template-rows: 1fr 2.5fr;
     background-color: #1d3557;
     background-image: linear-gradient(
       90deg,
@@ -272,10 +271,9 @@ form {
       rgb(3, 4, 65) 30%,
       rgb(112, 69, 252) 100%
     );
-    background-position: left;
-    padding: 70px 40px;
-    padding-top: 50px;
-    color: white !important;
+  }
+  .cafetasa_titulo {
+    background-position: center;
     text-align: center;
   }
   .patisserie {
@@ -339,12 +337,7 @@ form {
 .formulario_vos {
   display: grid;
   grid-template-columns: auto;
-  background-image: linear-gradient(
-    90deg,
-    rgb(29, 5, 136) 0%,
-    rgb(3, 4, 65) 30%,
-    rgb(112, 69, 252) 100%
-  );
+  background-color: #006d77;
   padding: 5%;
 }
 /* Fin estidos nosotros y vos */
@@ -352,8 +345,8 @@ form {
 .tabla_calientes {
   background-image: linear-gradient(
     90deg,
-    rgb(29, 5, 136) 0%,
-    rgb(3, 4, 65) 30%,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(29, 199, 253, 1) 30%,
     rgb(112, 69, 252) 100%
   );
   display: grid;
@@ -363,8 +356,8 @@ form {
 .tabla_frios {
   background-image: linear-gradient(
     90deg,
-    rgb(29, 5, 136) 0%,
-    rgb(3, 4, 65) 30%,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(29, 199, 253, 1) 30%,
     rgb(112, 69, 252) 100%
   );
   display: grid;
@@ -375,17 +368,9 @@ form {
   padding: 30px;
   background-color: #010710;
 }
-.pedidos_frios {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-}
 .pedidos_calientes {
   padding: 30px;
   background-color: #010710;
-}
-.pedidos_calientes {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
 }
 /* Fin estilos Frios y calientes */
 /* inicio estilos experiencia */
@@ -394,34 +379,21 @@ form {
   background-color: #010710;
 }
 .tienda {
-  display: flex;
-  flex-direction: column;
   margin: 20px;
 }
 .tienda {
-  padding-inline-start: 80px;
+  padding-inline-start: 50px;
   background-image: linear-gradient(
     90deg,
     rgb(29, 5, 136) 0%,
     rgb(3, 4, 65) 30%,
     rgb(112, 69, 252) 100%
   );
-  display: inline-block;
-  text-align: center;
-  font-size: x-large;
 }
 .elige {
-  display: flex;
-  flex-direction: row;
-  margin-left: 100px;
-  margin-right: 100px;
   justify-content: space-between;
 }
 .elige2 {
-  display: flex;
-  flex-direction: row;
-  margin-left: 100px;
-  margin-right: 100px;
   justify-content: space-between;
   animation-name: auto;
   animation-iteration-count: infinite;
@@ -437,34 +409,34 @@ form {
 }
 /* inicio estilos Nuestro Cafe */
 .video1 {
-  display: grid;
-  grid-template-columns: 1fr 2fr;
+  display: flex;
+  flex-direction: row;
   background-image: linear-gradient(
     90deg,
-    rgb(29, 5, 136) 0%,
-    rgb(3, 4, 65) 30%,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(29, 199, 253, 1) 30%,
     rgb(112, 69, 252) 100%
   );
-  padding: 8%;
-  gap: 40px;
+  padding: 15%;
+  gap: 20px;
 }
 .texto_video1 {
   text-align: justify;
 }
 .video2 {
-  display: grid;
-  grid-template-columns: 1fr 2fr;
+  display: flex;
+  flex-direction: row;
   background-image: linear-gradient(
     90deg,
-    rgb(29, 5, 136) 0%,
-    rgb(3, 4, 65) 30%,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(29, 199, 253, 1) 30%,
     rgb(112, 69, 252) 100%
   );
-  padding: 8%;
-  gap: 40px;
+  padding: 5%;
+  gap: 20px;
 }
 .texto_video2 {
-  text-align: center;
+  text-align: justify;
 }
 /* incion de animacion */
 @keyframes auto {
