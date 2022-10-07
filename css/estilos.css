@@ -8406,7 +8406,7 @@ html {
 /* fin estilos generales */
 /* inicio estilos index */
 header {
-  background-image: linear-gradient(90deg, #833ab4 0%, #1dc7fd 30%, #7045fc 100%);
+  background-image: linear-gradient(90deg, #af4706 0%, #fda71d 30%, #edebf4 100%);
   padding: 10px;
   width: 100vw;
   display: flex;
@@ -8441,7 +8441,7 @@ header {
 .cafemesa {
   display: flex;
   flex-direction: row;
-  background-image: url(../img/portada/principal.svg);
+  background-image: url(../img/portad_principal.svg);
   background-color: #1d3557;
   padding: 20vw;
   background-size: cover;
@@ -8449,7 +8449,7 @@ header {
 
 .cafetasa {
   background-color: #1d3557;
-  background-image: linear-gradient(90deg, #1d0588 0%, #030441 30%, #7045fc 100%);
+  background-image: linear-gradient(90deg, #af4706 0%, #fda71d 30%, #edebf4 100%);
   background-position: left;
   padding: 10px;
   padding-top: 5px;
@@ -8463,14 +8463,14 @@ header {
 
 .patisserie {
   background-color: #1d3557;
-  background-image: linear-gradient(90deg, #1d0588 0%, #030441 30%, #7045fc 100%);
+  background-image: linear-gradient(90deg, #af4706 0%, #fda71d 30%, #edebf4 100%);
   display: flex;
   flex-direction: column;
   gap: 5px;
   padding: 5px; }
 
 .especiales {
-  background-image: linear-gradient(90deg, #833ab4 0%, #1dc7fd 30%, #7045fc 100%);
+  background-image: linear-gradient(90deg, #af4706 0%, #fda71d 30%, #edebf4 100%);
   display: grid;
   grid-template-rows: 1fr 1fr;
   padding: 10px;
@@ -8492,7 +8492,7 @@ header {
   display: grid;
   grid-template-rows: 1fr;
   padding: 2rem;
-  background-image: linear-gradient(90deg, #d6822e 25%, #030441 100%, #794c08 35%);
+  background-image: linear-gradient(90deg, #af4706 0%, #fda71d 30%, #edebf4 100%);
   text-align: center;
   border-radius: 60%; }
 
@@ -8512,13 +8512,13 @@ form {
 /* fin estilos nosotros y vos celulares */
 /* Inicio estilos frios y caliente celulares */
 .tabla_calientes {
-  background-image: linear-gradient(90deg, #833ab4 0%, #1dc7fd 30%, #7045fc 100%);
+  background-image: linear-gradient(90deg, #af4706 0%, #fda71d 30%, #edebf4 100%);
   display: flex;
   flex-direction: column;
   padding: 20px; }
 
 .tabla_frios {
-  background-image: linear-gradient(90deg, #833ab4 0%, #1dc7fd 30%, #7045fc 100%);
+  background-image: linear-gradient(90deg, #af4706 0%, #fda71d 30%, #edebf4 100%);
   display: grid;
   justify-content: center;
   padding: 20px; }
@@ -8541,7 +8541,7 @@ form {
   margin: 5px; }
 
 .tienda {
-  background-image: linear-gradient(90deg, #1d0588 0%, #030441 30%, #7045fc 100%); }
+  background-image: linear-gradient(90deg, #af4706 0%, #fda71d 30%, #edebf4 100%); }
 
 .elige {
   justify-content: space-between; }
@@ -8574,19 +8574,19 @@ form {
     gap: 0 20px; }
   .cafetasa {
     background-color: #1d3557;
-    background-image: linear-gradient(90deg, #1d0588 0%, #030441 30%, #7045fc 100%); }
+    background-image: linear-gradient(90deg, #af4706 0%, #fda71d 30%, #edebf4 100%); }
   .cafetasa_titulo {
     background-position: center;
     text-align: center; }
   .patisserie {
     background-color: #1d3557;
-    background-image: linear-gradient(90deg, #1d0588 0%, #030441 30%, #7045fc 100%);
+    background-image: linear-gradient(90deg, #af4706 0%, #fda71d 30%, #edebf4 100%);
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 45px;
     padding: 70px 40px; }
   .especiales {
-    background-image: linear-gradient(90deg, #833ab4 0%, #1dc7fd 30%, #7045fc 100%);
+    background-image: linear-gradient(90deg, #af4706 0%, #fda71d 30%, #edebf4 100%);
     display: grid;
     grid-template-rows: 1fr 1fr;
     padding: 70px 40px;
@@ -8605,7 +8605,7 @@ form {
     display: grid;
     grid-template-rows: 1fr;
     padding: 5rem;
-    background-image: linear-gradient(90deg, #d6822e 25%, #030441 100%, #794c08 35%);
+    background-image: linear-gradient(90deg, #af4706 0%, #fda71d 30%, #edebf4 100%);
     text-align: center;
     border-radius: 60%; }
   .texto:hover {
@@ -8624,13 +8624,13 @@ form {
 /* Fin estidos nosotros y vos */
 /* Inicio estilos frios y calientes */
 .tabla_calientes {
-  background-image: linear-gradient(90deg, #833ab4 0%, #1dc7fd 30%, #7045fc 100%);
+  background-image: linear-gradient(90deg, #af4706 0%, #fda71d 30%, #edebf4 100%);
   display: grid;
   justify-content: center;
   padding: 70px; }
 
 .tabla_frios {
-  background-image: linear-gradient(90deg, #833ab4 0%, #1dc7fd 30%, #7045fc 100%);
+  background-image: linear-gradient(90deg, #af4706 0%, #fda71d 30%, #edebf4 100%);
   display: grid;
   justify-content: center;
   padding: 70px; }
@@ -8654,7 +8654,7 @@ form {
 
 .tienda {
   padding-inline-start: 50px;
-  background-image: linear-gradient(90deg, #1d0588 0%, #030441 30%, #7045fc 100%); }
+  background-image: linear-gradient(90deg, #af4706 0%, #fda71d 30%, #edebf4 100%); }
 
 .elige {
   justify-content: space-between; }
@@ -8677,7 +8677,7 @@ form {
 .video1 {
   display: flex;
   flex-direction: row;
-  background-image: linear-gradient(90deg, #833ab4 0%, #1dc7fd 30%, #7045fc 100%);
+  background-image: linear-gradient(90deg, #af4706 0%, #fda71d 30%, #edebf4 100%);
   padding: 15%;
   gap: 20px; }
 
@@ -8687,7 +8687,7 @@ form {
 .video2 {
   display: flex;
   flex-direction: row;
-  background-image: linear-gradient(90deg, #833ab4 0%, #1dc7fd 30%, #7045fc 100%);
+  background-image: linear-gradient(90deg, #af4706 0%, #fda71d 30%, #edebf4 100%);
   padding: 5%;
   gap: 20px; }
 

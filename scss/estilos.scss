@@ -83,7 +83,6 @@ header {
     rgb(253, 167, 29) 30%,
     rgb(237, 235, 244) 100%
   );
-  );
   background-position: left;
   padding: 10px;
   padding-top: 5px;
@@ -103,7 +102,6 @@ header {
     rgb(253, 167, 29) 30%,
     rgb(237, 235, 244) 100%
   );
-  );
   display: flex;
   flex-direction: column;
   gap: 5px;
@@ -115,7 +113,6 @@ header {
     rgb(175, 71, 6) 0%,
     rgb(253, 167, 29) 30%,
     rgb(237, 235, 244) 100%
-  );
   );
   display: grid;
   grid-template-rows: 1fr 1fr;
@@ -144,7 +141,6 @@ header {
     rgb(253, 167, 29) 30%,
     rgb(237, 235, 244) 100%
   );
-  );
   text-align: center;
   border-radius: 60%;
 }
@@ -169,7 +165,6 @@ form {
     rgb(175, 71, 6) 0%,
     rgb(253, 167, 29) 30%,
     rgb(237, 235, 244) 100%
-  );
   );
   display: flex;
   flex-direction: column;
@@ -209,7 +204,6 @@ form {
     rgb(175, 71, 6) 0%,
     rgb(253, 167, 29) 30%,
     rgb(237, 235, 244) 100%
-  );
   );
 }
 .elige {
@@ -252,7 +246,6 @@ form {
       rgb(253, 167, 29) 30%,
       rgb(237, 235, 244) 100%
     );
-    );
   }
   .cafetasa_titulo {
     background-position: center;
@@ -261,11 +254,10 @@ form {
   .patisserie {
     background-color: #1d3557;
     background-image: linear-gradient(
-      %90deg,
+      90deg,
       rgb(175, 71, 6) 0%,
       rgb(253, 167, 29) 30%,
       rgb(237, 235, 244) 100%
-    );
     );
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -278,7 +270,6 @@ form {
       rgb(175, 71, 6) 0%,
       rgb(253, 167, 29) 30%,
       rgb(237, 235, 244) 100%
-    );
     );
     display: grid;
     grid-template-rows: 1fr 1fr;
@@ -303,10 +294,9 @@ form {
     padding: 5rem;
     background-image: linear-gradient(
       90deg,
-    rgb(175, 71, 6) 0%,
-    rgb(253, 167, 29) 30%,
-    rgb(237, 235, 244) 100%
-  );
+      rgb(175, 71, 6) 0%,
+      rgb(253, 167, 29) 30%,
+      rgb(237, 235, 244) 100%
     );
     text-align: center;
     border-radius: 60%;
@@ -334,7 +324,6 @@ form {
     rgb(253, 167, 29) 30%,
     rgb(237, 235, 244) 100%
   );
-  );
   display: grid;
   justify-content: center;
   padding: 70px;
@@ -345,7 +334,6 @@ form {
     rgb(175, 71, 6) 0%,
     rgb(253, 167, 29) 30%,
     rgb(237, 235, 244) 100%
-  );
   );
   display: grid;
   justify-content: center;
@@ -376,7 +364,6 @@ form {
     rgb(253, 167, 29) 30%,
     rgb(237, 235, 244) 100%
   );
-  );
 }
 .elige {
   justify-content: space-between;
@@ -405,7 +392,6 @@ form {
     rgb(253, 167, 29) 30%,
     rgb(237, 235, 244) 100%
   );
-  );
   padding: 15%;
   gap: 20px;
 }
@@ -420,7 +406,6 @@ form {
     rgb(175, 71, 6) 0%,
     rgb(253, 167, 29) 30%,
     rgb(237, 235, 244) 100%
-  );
   );
   padding: 5%;
   gap: 20px;
