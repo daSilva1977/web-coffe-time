@@ -8419,14 +8419,12 @@ header {
   justify-content: center;
   flex-wrap: wrap;
   padding: 15px 15px; }
-
-.navegador li {
-  padding-left: 20px; }
-
-.navegador a {
-  color: white !important;
-  font-size: 1rem;
-  font-weight: 500; }
+  .navegador a {
+    color: white !important;
+    font-size: 1rem;
+    font-weight: 500; }
+  .navegador li {
+    padding-left: 20px; }
 
 header {
   width: 100vw;
@@ -8455,11 +8453,10 @@ header {
   padding-top: 5px;
   color: white !important;
   text-align: center; }
-
-.cafetasa_titulo {
-  padding: 10px;
-  background-position: center;
-  text-align: center; }
+  .cafetasa_titulo {
+    padding: 10px;
+    background-position: center;
+    text-align: center; }
 
 .patisserie {
   background-color: #1d3557;
@@ -8475,11 +8472,10 @@ header {
   grid-template-rows: 1fr 1fr;
   padding: 10px;
   gap: 5px; }
-
-.especiales_texto2 {
-  padding: 20px;
-  text-align: center;
-  gap: 5px; }
+  .especiales_texto2 {
+    padding: 20px;
+    text-align: center;
+    gap: 5px; }
 
 .contacto {
   background-color: #d0d6d7;

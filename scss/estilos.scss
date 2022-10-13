@@ -47,14 +47,14 @@ header {
   justify-content: center;
   flex-wrap: wrap;
   padding: 15px 15px;
-}
-.navegador li {
-  padding-left: 20px;
-}
-.navegador a {
-  color: white !important;
-  font-size: 1rem;
-  font-weight: 500;
+  a {
+    color: white !important;
+    font-size: 1rem;
+    font-weight: 500;
+  }
+  li {
+    padding-left: 20px;
+  }
 }
 header {
   width: 100vw;
@@ -88,11 +88,11 @@ header {
   padding-top: 5px;
   color: white !important;
   text-align: center;
-}
-.cafetasa_titulo {
-  padding: 10px;
-  background-position: center;
-  text-align: center;
+  &_titulo {
+    padding: 10px;
+    background-position: center;
+    text-align: center;
+  }
 }
 .patisserie {
   background-color: #1d3557;
@@ -118,11 +118,11 @@ header {
   grid-template-rows: 1fr 1fr;
   padding: 10px;
   gap: 5px;
-}
-.especiales_texto2 {
-  padding: 20px;
-  text-align: center;
-  gap: 5px;
+  &_texto2 {
+    padding: 20px;
+    text-align: center;
+    gap: 5px;
+  }
 }
 .contacto {
   background-color: #d0d6d7;
@@ -247,7 +247,7 @@ form {
       90deg,
       rgb(175, 71, 6) 0%,
       rgb(253, 167, 29) 30%,
-      rgb(203, 90, 5) 100%  
+      rgb(203, 90, 5) 100%
     );
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -277,7 +277,7 @@ form {
     gap: 15px;
   }
   /* Fin estilos index */
-  /* Inicio nosotros y vos */ 
+  /* Inicio nosotros y vos */
 }
 form {
   background-color: #006d77;
@@ -401,5 +401,5 @@ form {
   }
   65% {
     transform: translate(-15px, -15px);
-}
+  }
 }
