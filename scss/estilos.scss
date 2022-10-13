@@ -33,7 +33,7 @@ header {
     90deg,
     rgb(175, 71, 6) 0%,
     rgb(253, 167, 29) 30%,
-    rgb(237, 235, 244) 100%
+    rgb(203, 90, 5) 100%
   );
   padding: 10px;
   width: 100vw;
@@ -81,7 +81,7 @@ header {
     90deg,
     rgb(175, 71, 6) 0%,
     rgb(253, 167, 29) 30%,
-    rgb(237, 235, 244) 100%
+    rgb(203, 90, 5) 100%
   );
   background-position: left;
   padding: 10px;
@@ -100,7 +100,7 @@ header {
     90deg,
     rgb(175, 71, 6) 0%,
     rgb(253, 167, 29) 30%,
-    rgb(237, 235, 244) 100%
+    rgb(203, 90, 5) 100%
   );
   display: flex;
   flex-direction: column;
@@ -112,7 +112,7 @@ header {
     90deg,
     rgb(175, 71, 6) 0%,
     rgb(253, 167, 29) 30%,
-    rgb(237, 235, 244) 100%
+    rgb(203, 90, 5) 100%
   );
   display: grid;
   grid-template-rows: 1fr 1fr;
@@ -125,7 +125,7 @@ header {
   gap: 5px;
 }
 .contacto {
-  background-color: #006d77;
+  background-color: #d0d6d7;
   display: flex;
   gap: 15px;
 }
@@ -134,18 +134,8 @@ header {
 .texto {
   display: grid;
   grid-template-rows: 1fr;
-  padding: 2rem;
-  background-image: linear-gradient(
-    90deg,
-    rgb(175, 71, 6) 0%,
-    rgb(253, 167, 29) 30%,
-    rgb(237, 235, 244) 100%
-  );
+  padding: 6rem;
   text-align: center;
-  border-radius: 60%;
-}
-.texto:hover {
-  transform: scale(1.1);
 }
 form {
   background-color: #006d77;
@@ -164,7 +154,7 @@ form {
     90deg,
     rgb(175, 71, 6) 0%,
     rgb(253, 167, 29) 30%,
-    rgb(237, 235, 244) 100%
+    rgb(203, 90, 5) 100%
   );
   display: flex;
   flex-direction: column;
@@ -175,7 +165,7 @@ form {
     90deg,
     rgb(175, 71, 6) 0%,
     rgb(253, 167, 29) 30%,
-    rgb(237, 235, 244) 100%
+    rgb(203, 90, 5) 100%
   );
   display: grid;
   justify-content: center;
@@ -203,7 +193,7 @@ form {
     90deg,
     rgb(175, 71, 6) 0%,
     rgb(253, 167, 29) 30%,
-    rgb(237, 235, 244) 100%
+    rgb(203, 90, 5) 100%
   );
 }
 .elige {
@@ -244,7 +234,7 @@ form {
       90deg,
       rgb(175, 71, 6) 0%,
       rgb(253, 167, 29) 30%,
-      rgb(237, 235, 244) 100%
+      rgb(203, 90, 5) 100%
     );
   }
   .cafetasa_titulo {
@@ -257,7 +247,7 @@ form {
       90deg,
       rgb(175, 71, 6) 0%,
       rgb(253, 167, 29) 30%,
-      rgb(237, 235, 244) 100%
+      rgb(203, 90, 5) 100%  
     );
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -269,7 +259,7 @@ form {
       90deg,
       rgb(175, 71, 6) 0%,
       rgb(253, 167, 29) 30%,
-      rgb(237, 235, 244) 100%
+      rgb(203, 90, 5) 100%
     );
     display: grid;
     grid-template-rows: 1fr 1fr;
@@ -282,28 +272,12 @@ form {
     gap: 10px;
   }
   .contacto {
-    background-color: #006d77;
+    background-color: #a0a4a4;
     display: flex;
     gap: 15px;
   }
   /* Fin estilos index */
-  /* Inicio nosotros y vos */
-  .texto {
-    display: grid;
-    grid-template-rows: 1fr;
-    padding: 5rem;
-    background-image: linear-gradient(
-      90deg,
-      rgb(175, 71, 6) 0%,
-      rgb(253, 167, 29) 30%,
-      rgb(237, 235, 244) 100%
-    );
-    text-align: center;
-    border-radius: 60%;
-  }
-  .texto:hover {
-    transform: scale(1.1);
-  }
+  /* Inicio nosotros y vos */ 
 }
 form {
   background-color: #006d77;
@@ -312,7 +286,7 @@ form {
 .formulario_vos {
   display: grid;
   grid-template-columns: auto;
-  background-color: #006d77;
+  background-color: #ebeff0;
   padding: 5%;
 }
 /* Fin estidos nosotros y vos */
@@ -322,7 +296,7 @@ form {
     90deg,
     rgb(175, 71, 6) 0%,
     rgb(253, 167, 29) 30%,
-    rgb(237, 235, 244) 100%
+    rgb(203, 90, 5) 100%
   );
   display: grid;
   justify-content: center;
@@ -333,7 +307,7 @@ form {
     90deg,
     rgb(175, 71, 6) 0%,
     rgb(253, 167, 29) 30%,
-    rgb(237, 235, 244) 100%
+    rgb(203, 90, 5) 100%
   );
   display: grid;
   justify-content: center;
@@ -362,7 +336,7 @@ form {
     90deg,
     rgb(175, 71, 6) 0%,
     rgb(253, 167, 29) 30%,
-    rgb(237, 235, 244) 100%
+    rgb(203, 90, 5) 100%
   );
 }
 .elige {
@@ -390,7 +364,7 @@ form {
     90deg,
     rgb(175, 71, 6) 0%,
     rgb(253, 167, 29) 30%,
-    rgb(237, 235, 244) 100%
+    rgb(203, 90, 5) 100%
   );
   padding: 15%;
   gap: 20px;
@@ -405,7 +379,7 @@ form {
     90deg,
     rgb(175, 71, 6) 0%,
     rgb(253, 167, 29) 30%,
-    rgb(237, 235, 244) 100%
+    rgb(203, 90, 5) 100%
   );
   padding: 5%;
   gap: 20px;
@@ -427,5 +401,5 @@ form {
   }
   65% {
     transform: translate(-15px, -15px);
-  }
+}
 }
