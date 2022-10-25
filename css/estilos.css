@@ -8480,14 +8480,13 @@ header {
 .contacto {
   background-color: #d0d6d7;
   display: flex;
-  gap: 15px; }
+  text-align: center;
+  gap: 25px; }
 
 /* fin estilos index celulares */
 /* inicio estilos nosotros y vos celulares */
 .texto {
-  display: grid;
-  grid-template-rows: 1fr;
-  padding: 6rem;
+  padding: 2rem;
   text-align: center; }
 
 form {
@@ -8498,7 +8497,7 @@ form {
   display: grid;
   grid-template-columns: auto;
   background-color: #006d77;
-  padding: 5%; }
+  padding: 10%; }
 
 /* fin estilos nosotros y vos celulares */
 /* Inicio estilos frios y caliente celulares */
@@ -8533,17 +8532,6 @@ form {
 
 .tienda {
   background-image: linear-gradient(90deg, #af4706 0%, #fda71d 30%, #cb5a05 100%); }
-
-.elige {
-  justify-content: space-between; }
-
-.elige2 {
-  justify-content: space-between;
-  animation-name: auto;
-  animation-iteration-count: infinite;
-  animation-timing-function: ease-in;
-  animation-duration: 2s;
-  animation-delay: 3s; }
 
 /* fin experiencia celulares */
 @media (min-width: 992px) {
@@ -8589,9 +8577,12 @@ form {
   .contacto {
     background-color: #a0a4a4;
     display: flex;
-    gap: 15px; }
+    text-align: center;
+    gap: 25px; }
   /* Fin estilos index */
-  /* Inicio nosotros y vos */ }
+  /* Inicio nosotros y vos */
+  .card {
+    padding: 10%; } }
 
 form {
   background-color: #006d77;
@@ -8601,7 +8592,7 @@ form {
   display: grid;
   grid-template-columns: auto;
   background-color: #ebeff0;
-  padding: 5%; }
+  padding: 10%; }
 
 /* Fin estidos nosotros y vos */
 /* Inicio estilos frios y calientes */
@@ -8638,39 +8629,13 @@ form {
   padding-inline-start: 50px;
   background-image: linear-gradient(90deg, #af4706 0%, #fda71d 30%, #cb5a05 100%); }
 
-.elige {
-  justify-content: space-between; }
-
-.elige2 {
-  justify-content: space-between;
-  animation-name: auto;
-  animation-iteration-count: infinite;
-  animation-timing-function: ease-in;
-  animation-duration: 2s;
-  animation-delay: 3s; }
-
 /* fin estilos experiencia */
-.forma_de_pago {
-  display: flex;
-  flex-direction: row;
-  padding: 1%; }
-
 /* inicio estilos Nuestro Cafe */
-.video1 {
-  display: flex;
-  flex-direction: row;
-  background-image: linear-gradient(90deg, #af4706 0%, #fda71d 30%, #cb5a05 100%);
-  padding: 15%;
-  gap: 20px; }
-
-.texto_video1 {
-  text-align: justify; }
-
 .video2 {
   display: flex;
   flex-direction: row;
   background-image: linear-gradient(90deg, #af4706 0%, #fda71d 30%, #cb5a05 100%);
-  padding: 5%;
+  padding: 10%;
   gap: 20px; }
 
 .texto_video2 {
