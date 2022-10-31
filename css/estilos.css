@@ -8490,13 +8490,13 @@ header {
   text-align: center; }
 
 form {
-  background-color: #006d77;
+  background-color: white;
   display: block; }
 
 .formulario_vos {
   display: grid;
   grid-template-columns: auto;
-  background-color: #006d77;
+  background-color: white;
   padding: 10%; }
 
 /* fin estilos nosotros y vos celulares */
@@ -8586,13 +8586,13 @@ form {
     padding: 10%; } }
 
 form {
-  background-color: #006d77;
+  background-color: gainsboro;
   display: block; }
 
 .formulario_vos {
   display: grid;
   grid-template-columns: auto;
-  background-color: #ebeff0;
+  background-color: gainsboro;
   padding: 10%; }
 
 /* Fin estidos nosotros y vos */

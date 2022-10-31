@@ -1,109 +1,165 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="nosotros amantes del cafe, vos contanos tu experiencia">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-    <link rel="shortcut icon" href="./fav-icon/Logo.svg" type="image/x-icon">
-    <link rel="stylesheet" href="css/estilos.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="nosotros amantes del cafe, vos contanos tu experiencia"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+    <link rel="shortcut icon" href="./fav-icon/Logo.svg" type="image/x-icon" />
+    <link rel="stylesheet" href="css/estilos.css" />
     <title>Coffe Time</title>
-</head>
+  </head>
   <body>
     <header id="paginaprincipal" class="pagina_principal">
-      <img src="./img/logo blanco.png" alt="logo empresa">
-  <nav>  
+      <img src="./img/logo blanco.png" alt="logo empresa" />
       <nav class="navbar navbar-expand-lg">
-          <div class="container-fluid">
-            <a class="navbar-brand text-white" href="./index.html">Inicio</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                  <a class="nav-link active text-white" aria-current="page" href="./frios.html">Frios</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link text-white" href="./calientes.html">Calientes</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link text-white" href="./experiencia.html">Experiencia</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link text-white" href="./nosotros-y-vos.html">Nosotros y vos</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link text-white" href="./nuestro-cafe.html">Nuestro Cafe</a>
-                </li>
+        <div class="container-fluid">
+          <a class="navbar-brand text-white" href="./index.html">Inicio</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link active text-white"
+                  aria-current="page"
+                  href="./frios.html"
+                  >Frios</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="./calientes.html"
+                  >Calientes</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="./experiencia.html"
+                  >Experiencia</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="./nosotros-y-vos.html"
+                  >Nosotros y vos</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="./nuestro-cafe.html"
+                  >Nuestro Cafe</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!--inicio de vos-->
+    <main>
+      <div class="formulario_vos">
+        <p>Vos</p>
+        <p>Contanos tu Experiencia Coffe Time</p>
+        <form>
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label"
+              >Nombre y Apellido</label
+            >
+            <input
+              type="nombre"
+              class="form-control"
+              id="exampleFormControlInput1"
+              placeholder="colocar nombre"
+            />
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label"
+              >Direcion de email</label
+            >
+            <input
+              type="email"
+              class="form-control"
+              id="exampleFormControlInput1"
+              placeholder="name@example.com"
+            />
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label"
+              >Descripcion de experiencia</label
+            >
+            <textarea
+              class="form-control"
+              id="exampleFormControlTextarea1"
+              rows="3"
+            ></textarea>
+          </div>
+          <div class="row mb-3">
+            <div class="col-sm-10 offset-sm-2">
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  id="gridCheck1"
+                />
+                <label class="form-check-label" for="gridCheck1">
+                  Desea recibir informacion de Coffe time
+                </label>
+              </div>
             </div>
           </div>
-        </nav>  
-  </header>
-      <!--inicio de vos-->
-  <main>
-  <div class="formulario_vos"> 
-  <p>Vos</p>
-  <p>Contanos tu Experiencia Coffe Time</p>
-  <div class="mb-3">
-    <label for="exampleFormControlInput1" class="form-label">Nombre y Apellido</label>
-    <input type="nombre" class="form-control" id="exampleFormControlInput1" placeholder="colocar nombre">
-  </div>
-  <div class="mb-3">
-    <label for="exampleFormControlInput1" class="form-label">Direcion de email</label>
-    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-  </div>
-  <div class="mb-3">
-    <label for="exampleFormControlTextarea1" class="form-label">Descripcion de experiencia</label>
-    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          <button type="submit" class="btn btn-primary">Envviar</button>
+        </form>
       </div>
-    </fieldset>
-    <div class="row mb-3">
-      <div class="col-sm-10 offset-sm-2">
-        <div class="form-check">
-          <input class="form-check-input" type="checkbox" id="gridCheck1">
-          <label class="form-check-label" for="gridCheck1">
-            Desea recibir informacion de Coffe time
-          </label>
+      <!--fin de vos-->
+      <!--inicio de Nosotro-->
+      <div class="card">
+        <div class="card-body">
+          <blockquote class="blockquote mb-0">
+            <h1>
+              Coffe Time nació como un espacio para los amantes del café. Con el
+              tiempo fuimos perfeccionado el servicio y hoy nos sentimos
+              orgulloso del proyecto que creeamos y que cada cliente disftuta y
+              valora, gracias a nuestros grandes baristas y pasteleros que
+              buscan la mejor calidad en las materias primas para hacer sus
+              creaciones. Gracias por seguir eligiendonos!
+            </h1>
+          </blockquote>
         </div>
       </div>
-    </div>
-    <button type="submit" class="btn btn-primary">Envviar</button>
-  </form>
-</div>
-    <!--fin de vos-->
-    <!--inicio de Nosotro-->  
-      <div class="card">
-      <div class="card-body">
-        <blockquote class="blockquote mb-0">
-        <h1>
-        Coffe Time nació como un espacio para los amantes del café. Con el tiempo
-        fuimos perfeccionado el servicio y hoy nos sentimos orgulloso del proyecto
-        que creeamos y que cada cliente disftuta y valora, gracias a nuestros
-        grandes baristas y pasteleros que buscan la mejor calidad en las materias
-        primas para hacer sus creaciones. Gracias por seguir eligiendonos!
-      </h1>
-    </blockquote>
-      </div>
-    </div>
-  </div>
-</div>
-</main>
+    </main>
     <!--fin de Nosotro-->
     <footer class="contacto">
       <div class="contacto_instagram">
-          <img src="./img/bxl-instagram 1.png"alt="redes">
-          <p>@coffetime</p>
+        <img src="./img/bxl-instagram 1.png" alt="redes" />
+        <p>@coffetime</p>
       </div>
       <div class="contacto_mapa">
-          <a href="https://goo.gl/maps/vhYTTZogPs1HbV2WA">    
-          <img src="./img/bx-map 1.png"alt="Mapa">
+        <a href="https://goo.gl/maps/vhYTTZogPs1HbV2WA">
+          <img src="./img/bx-map 1.png" alt="Mapa" />
           <p>Humbolt 16</p>
-          </a>
+        </a>
       </div>
-  </footer>
-  <!-- JavaScript Bundle with Popper -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
-</body>
+    </footer>
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
