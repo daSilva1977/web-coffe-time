@@ -209,6 +209,7 @@ form {
     grid-template-columns: 200px auto 100px;
     justify-content: space-around;
     align-items: start;
+    z-index: 999999999999;
   }
   .navegador {
     display: grid;
