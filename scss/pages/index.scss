@@ -1,0 +1,194 @@
+/* inicio estilos generales */
+* {
+  margin: 0p;
+  padding: 0px;
+}
+a {
+  text-decoration: none;
+  color: blak;
+}
+ul,
+ol {
+  list-style: none;
+}
+html {
+  font-family: "poppins", sans-serif !important;
+  color: white !important;
+}
+.fixed {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+/* fin estilos generales */
+/* inicio estilos index */
+.bg-gradient-navbar {
+  background-image: linear-gradient(
+    90deg,
+    $primary 0%,
+    $secondary 30%,
+    $danger 100% 0%
+  );
+}
+.navegador {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 15px 15px;
+  a {
+    color: white !important;
+    font-size: 1rem;
+    font-weight: 500;
+  }
+  li {
+    padding-left: 20px;
+  }
+}
+header {
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.pagina_princial ul li {
+  display: block;
+}
+.cafemesa {
+  display: flex;
+  flex-direction: row;
+  background-image: url(../img/portad_principal.svg);
+  background-color: #1d3557;
+  padding: 20vw;
+  background-size: cover;
+  top: 10px;
+}
+.cafetasa {
+  background-color: #1d3557;
+  background-image: linear-gradient(
+    90deg,
+    $primary 0%,
+    $secondary 30%,
+    $danger 100%
+  );
+  background-position: left;
+  padding: 10px;
+  padding-top: 5px;
+  color: white !important;
+  text-align: center;
+  &_titulo {
+    padding: 10px;
+    background-position: center;
+    text-align: center;
+  }
+}
+.patisserie {
+  background-color: #1d3557;
+  background-image: linear-gradient(
+    90deg,
+    $primary 0%,
+    $secondary 30%,
+    $danger 100%
+  );
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 5px;
+}
+.especiales {
+  background-image: linear-gradient(
+    90deg,
+    $primary 0%,
+    $secondary 30%,
+    $danger 100%
+  );
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  padding: 10px;
+  gap: 5px;
+  &_texto2 {
+    padding: 20px;
+    text-align: center;
+    gap: 5px;
+  }
+}
+.contacto {
+  background-color: white;
+  display: flex;
+  text-align: center;
+  gap: 25px;
+}
+/* fin estilos index celulares */
+/* fin experiencia celulares */
+@media (min-width: 992px) {
+  .fixed {
+    bottom: 40px;
+    right: 40px;
+  }
+  header {
+    position: fixed;
+    width: 100vw;
+    height: 55px;
+    display: grid;
+    grid-template-columns: 200px auto 100px;
+    justify-content: space-around;
+    align-items: start;
+    z-index: 999999999999;
+  }
+  .navegador {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    justify-content: center;
+    gap: 0 20px;
+  }
+  .cafetasa {
+    background-color: #1d3557;
+    background-image: linear-gradient(
+      90deg,
+      $primary 0%,
+      $secondary 30%,
+      $danger 100%
+    );
+  }
+  .cafetasa_titulo {
+    background-position: center;
+    text-align: center;
+  }
+  .patisserie {
+    background-color: #1d3557;
+    background-image: linear-gradient(
+      90deg,
+      $primary 0%,
+      $secondary 30%,
+      $danger 100%
+    );
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 45px;
+    padding: 70px 40px;
+  }
+  .especiales {
+    background-image: linear-gradient(
+      90deg,
+      $primary 0%,
+      $secondary 30%,
+      $danger 100%
+    );
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    padding: 70px 40px;
+    gap: 20px;
+  }
+  .especiales_texto2 {
+    padding-left: 80px;
+    text-align: justify;
+    gap: 10px;
+  }
+  .contacto {
+    background-color: white;
+    display: flex;
+    text-align: center;
+    gap: 25px;
+  }
+}
+/* Fin estilos index */

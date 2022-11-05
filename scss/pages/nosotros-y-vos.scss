@@ -1,0 +1,35 @@
+/* inicio estilos generales */
+/* inicio estilos nosotros y vos celulares */
+.texto {
+  padding: 2rem;
+  text-align: center;
+}
+form {
+  background-color: white;
+  display: block;
+}
+.formulario_vos {
+  display: grid;
+  grid-template-columns: auto;
+  background-color: white;
+  padding: 10%;
+}
+/* fin estilos nosotros y vos celulares */
+/* fin experiencia celulares */
+@media (min-width: 992px) {
+  /* Inicio nosotros y vos */
+  .card {
+    padding: 10%;
+  }
+}
+form {
+  background-color: gainsboro;
+  display: block;
+}
+.formulario_vos {
+  display: grid;
+  grid-template-columns: auto;
+  background-color: rgb(249, 250, 251);
+  padding: 10%;
+}
+/* Fin estidos nosotros y vos */

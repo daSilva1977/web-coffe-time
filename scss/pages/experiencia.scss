@@ -1,0 +1,38 @@
+/* inicio estilos generales */
+/* Inicio experiencia celulares */
+.forma_experiencia {
+  background-color: #010710;
+  width: 100vw;
+}
+.tienda {
+  margin: 5px;
+}
+.tienda {
+  background-image: linear-gradient(
+    90deg,
+    $primary 0%,
+    $secondary 30%,
+    $danger 100%
+  );
+}
+/* fin experiencia celulares */
+@media (min-width: 992px) {
+  /* inicio estilos experiencia */
+  .forma_experiencia {
+    padding: 30px;
+    background-color: #010710;
+  }
+  .tienda {
+    margin: 20px;
+  }
+  .tienda {
+    padding-inline-start: 50px;
+    background-image: linear-gradient(
+      90deg,
+      $primary 0%,
+      $secondary 30%,
+      $danger 100%
+    );
+  }
+  /* fin estilos experiencia */
+}

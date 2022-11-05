@@ -1,0 +1,37 @@
+/* inicio estilos generales */
+.tabla_frios {
+  background-image: linear-gradient(
+    90deg,
+    $primary 0%,
+    $secondary 30%,
+    $danger 100%
+  );
+  display: grid;
+  justify-content: center;
+  padding: 20px;
+}
+.pedidos_frios {
+  padding: 10px;
+  background-color: #010710;
+}
+/* fin estilos frios y caliente celulares */
+/* fin experiencia celulares */
+@media (min-width: 992px) {
+  /* Inicio estilos frios y calientes */
+  .tabla_frios {
+    background-image: linear-gradient(
+      90deg,
+      $primary 0%,
+      $secondary 30%,
+      $danger 100%
+    );
+    display: grid;
+    justify-content: center;
+    padding: 100px;
+  }
+  .pedidos_frios {
+    padding: 30px;
+    background-color: #010710;
+    /* Fin estilos Frios y calientes */
+  }
+}
