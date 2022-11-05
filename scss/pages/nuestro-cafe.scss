@@ -1,4 +1,18 @@
-/* inicio estilos generales */
+/* inicio estilos celulares*/
+.video2 {
+  background-image: linear-gradient(
+    90deg,
+    $primary 0%,
+    $secondary 30%,
+    $danger 100%
+  );
+  padding: 10%;
+  gap: 20px;
+  padding-top: 150px;
+}
+.texto_video2 {
+  text-align: justify;
+}
 /* fin experiencia celulares */
 @media (min-width: 992px) {
   /* inicio estilos Nuestro Cafe */

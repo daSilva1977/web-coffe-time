@@ -1,8 +1,9 @@
-/* inicio estilos generales */
 /* Inicio experiencia celulares */
 .forma_experiencia {
   background-color: #010710;
   width: 100vw;
+  padding-top: 150px;
+  padding: 10px;
 }
 .tienda {
   margin: 5px;
@@ -24,15 +25,6 @@
   }
   .tienda {
     margin: 20px;
-  }
-  .tienda {
-    padding-inline-start: 50px;
-    background-image: linear-gradient(
-      90deg,
-      $primary 0%,
-      $secondary 30%,
-      $danger 100%
-    );
   }
   /* fin estilos experiencia */
 }

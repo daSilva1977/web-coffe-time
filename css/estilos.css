@@ -8536,9 +8536,9 @@ header {
 /* Inicio estilos frios y caliente celulares */
 .tabla_calientes {
   background-image: linear-gradient(90deg, #af4706 0%, #fda71d 30%, #cb5a05 100%);
-  display: flex;
-  flex-direction: column;
-  padding: 20px; }
+  display: grid;
+  justify-content: center;
+  padding: 50vw; }
 
 .pedidos_calientes {
   padding: 10px;
@@ -8552,17 +8552,18 @@ header {
     background-image: linear-gradient(90deg, #af4706 0%, #fda71d 30%, #cb5a05 100%);
     display: grid;
     justify-content: center;
-    padding: 100px; }
+    padding: 150px; }
   .pedidos_calientes {
     padding: 30px;
     background-color: #010710; }
   /* Fin estilos Frios y calientes */ }
 
-/* inicio estilos generales */
 /* Inicio experiencia celulares */
 .forma_experiencia {
   background-color: #010710;
-  width: 100vw; }
+  width: 100vw;
+  padding-top: 150px;
+  padding: 10px; }
 
 .tienda {
   margin: 5px; }
@@ -8578,9 +8579,6 @@ header {
     background-color: #010710; }
   .tienda {
     margin: 20px; }
-  .tienda {
-    padding-inline-start: 50px;
-    background-image: linear-gradient(90deg, #af4706 0%, #fda71d 30%, #cb5a05 100%); }
   /* fin estilos experiencia */ }
 
 /* inicio estilos generales */
@@ -8588,7 +8586,7 @@ header {
   background-image: linear-gradient(90deg, #af4706 0%, #fda71d 30%, #cb5a05 100%);
   display: grid;
   justify-content: center;
-  padding: 20px; }
+  padding: 50vw; }
 
 .pedidos_frios {
   padding: 10px;
@@ -8602,27 +8600,23 @@ header {
     background-image: linear-gradient(90deg, #af4706 0%, #fda71d 30%, #cb5a05 100%);
     display: grid;
     justify-content: center;
-    padding: 100px; }
+    padding: 150px; }
   .pedidos_frios {
     padding: 30px;
     background-color: #010710;
     /* Fin estilos Frios y calientes */ } }
 
-/* inicio estilos generales */
 /* inicio estilos nosotros y vos celulares */
-.texto {
-  padding: 2rem;
-  text-align: center; }
-
-form {
-  background-color: white;
-  display: block; }
-
 .formulario_vos {
-  display: grid;
-  grid-template-columns: auto;
-  background-color: white;
-  padding: 10%; }
+  background-image: white;
+  background-position: left;
+  padding: 20px;
+  padding-top: 150px;
+  text-align: justify; }
+  .formulario_vos_titulo {
+    padding: 20px;
+    background-position: center;
+    text-align: center; }
 
 /* fin estilos nosotros y vos celulares */
 /* fin experiencia celulares */
@@ -8632,17 +8626,19 @@ form {
     padding: 10%; } }
 
 form {
-  background-color: gainsboro;
-  display: block; }
-
-.formulario_vos {
-  display: grid;
-  grid-template-columns: auto;
-  background-color: #f9fafb;
-  padding: 10%; }
+  background-color: gainsboro; }
 
 /* Fin estidos nosotros y vos */
-/* inicio estilos generales */
+/* inicio estilos celulares*/
+.video2 {
+  background-image: linear-gradient(90deg, #af4706 0%, #fda71d 30%, #cb5a05 100%);
+  padding: 10%;
+  gap: 20px;
+  padding-top: 150px; }
+
+.texto_video2 {
+  text-align: justify; }
+
 /* fin experiencia celulares */
 @media (min-width: 992px) {
   /* inicio estilos Nuestro Cafe */

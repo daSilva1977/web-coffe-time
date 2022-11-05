@@ -1,18 +1,15 @@
-/* inicio estilos generales */
 /* inicio estilos nosotros y vos celulares */
-.texto {
-  padding: 2rem;
-  text-align: center;
-}
-form {
-  background-color: white;
-  display: block;
-}
 .formulario_vos {
-  display: grid;
-  grid-template-columns: auto;
-  background-color: white;
-  padding: 10%;
+  background-image: white;
+  background-position: left;
+  padding: 20px;
+  padding-top: 150px;
+  text-align: justify;
+  &_titulo {
+    padding: 20px;
+    background-position: center;
+    text-align: center;
+  }
 }
 /* fin estilos nosotros y vos celulares */
 /* fin experiencia celulares */
@@ -24,12 +21,5 @@ form {
 }
 form {
   background-color: gainsboro;
-  display: block;
-}
-.formulario_vos {
-  display: grid;
-  grid-template-columns: auto;
-  background-color: rgb(249, 250, 251);
-  padding: 10%;
 }
 /* Fin estidos nosotros y vos */
