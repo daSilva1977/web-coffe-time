@@ -8457,6 +8457,10 @@ header {
     background-position: center;
     text-align: center; }
 
+.variedad_calientes {
+  padding: 10px;
+  background-color: #010710; }
+
 .patisserie {
   background-color: #1d3557;
   background-image: linear-gradient(90deg, #af4706 0%, #fda71d 30%, #cb5a05 100%);
@@ -8467,12 +8471,10 @@ header {
 
 .especiales {
   background-image: linear-gradient(90deg, #af4706 0%, #fda71d 30%, #cb5a05 100%);
-  display: grid;
-  grid-template-rows: 1fr 1fr;
   padding: 10px;
   gap: 5px; }
   .especiales_texto2 {
-    padding: 20px;
+    padding: 10px;
     text-align: center;
     gap: 5px; }
 
@@ -8504,7 +8506,8 @@ header {
     gap: 0 20px; }
   .cafetasa_titulo {
     background-position: center;
-    text-align: center; }
+    text-align: center;
+    padding: 4vw; }
   .patisserie {
     background-color: #1d3557;
     background-image: linear-gradient(90deg, #af4706 0%, #fda71d 30%, #cb5a05 100%);
@@ -8514,14 +8517,15 @@ header {
     padding: 70px 40px; }
   .especiales {
     background-image: linear-gradient(90deg, #af4706 0%, #fda71d 30%, #cb5a05 100%);
-    display: grid;
-    grid-template-rows: 1fr 1fr;
     padding: 70px 40px;
     gap: 20px; }
     .especialestexto2 {
       padding-left: 80px;
       text-align: justify;
-      gap: 10px; } }
+      gap: 10px; }
+  .variedad_calientes {
+    padding: 30px;
+    background-color: #010710; } }
 
 /* Fin estilos index */
 /* inicio estilos generales */
@@ -8600,7 +8604,7 @@ header {
 
 /* inicio estilos nosotros y vos celulares */
 .formulario_vos {
-  background-image: white;
+  background-image: black;
   background-position: left;
   padding: 20px;
   padding-top: 150px;
@@ -8618,7 +8622,7 @@ header {
     padding: 10%; } }
 
 form {
-  background-color: gainsboro; }
+  background-color: white; }
 
 /* Fin estidos nosotros y vos */
 /* inicio estilos celulares*/

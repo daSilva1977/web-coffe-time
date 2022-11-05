@@ -82,6 +82,10 @@ header {
     text-align: center;
   }
 }
+.variedad_calientes {
+  padding: 10px;
+  background-color: #010710;
+}
 .patisserie {
   background-color: #1d3557;
   background-image: linear-gradient(
@@ -102,12 +106,10 @@ header {
     $secondary 30%,
     $danger 100%
   );
-  display: grid;
-  grid-template-rows: 1fr 1fr;
   padding: 10px;
   gap: 5px;
   &_texto2 {
-    padding: 20px;
+    padding: 10px;
     text-align: center;
     gap: 5px;
   }
@@ -144,6 +146,7 @@ header {
   .cafetasa_titulo {
     background-position: center;
     text-align: center;
+    padding: 4vw;
   }
   .patisserie {
     background-color: #1d3557;
@@ -165,8 +168,6 @@ header {
       $secondary 30%,
       $danger 100%
     );
-    display: grid;
-    grid-template-rows: 1fr 1fr;
     padding: 70px 40px;
     gap: 20px;
     &texto2 {
@@ -174,6 +175,10 @@ header {
       text-align: justify;
       gap: 10px;
     }
+  }
+  .variedad_calientes {
+    padding: 30px;
+    background-color: #010710;
   }
 }
 /* Fin estilos index */
