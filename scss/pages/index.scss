@@ -141,15 +141,6 @@ header {
     justify-content: center;
     gap: 0 20px;
   }
-  .cafetasa {
-    background-color: #1d3557;
-    background-image: linear-gradient(
-      90deg,
-      $primary 0%,
-      $secondary 30%,
-      $danger 100%
-    );
-  }
   .cafetasa_titulo {
     background-position: center;
     text-align: center;
@@ -178,17 +169,11 @@ header {
     grid-template-rows: 1fr 1fr;
     padding: 70px 40px;
     gap: 20px;
-  }
-  .especiales_texto2 {
-    padding-left: 80px;
-    text-align: justify;
-    gap: 10px;
-  }
-  .contacto {
-    background-color: white;
-    display: flex;
-    text-align: center;
-    gap: 25px;
+    &texto2 {
+      padding-left: 80px;
+      text-align: justify;
+      gap: 10px;
+    }
   }
 }
 /* Fin estilos index */

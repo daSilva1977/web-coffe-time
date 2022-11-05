@@ -8502,9 +8502,6 @@ header {
     grid-template-columns: repeat(6, 1fr);
     justify-content: center;
     gap: 0 20px; }
-  .cafetasa {
-    background-color: #1d3557;
-    background-image: linear-gradient(90deg, #af4706 0%, #fda71d 30%, #cb5a05 100%); }
   .cafetasa_titulo {
     background-position: center;
     text-align: center; }
@@ -8521,15 +8518,10 @@ header {
     grid-template-rows: 1fr 1fr;
     padding: 70px 40px;
     gap: 20px; }
-  .especiales_texto2 {
-    padding-left: 80px;
-    text-align: justify;
-    gap: 10px; }
-  .contacto {
-    background-color: white;
-    display: flex;
-    text-align: center;
-    gap: 25px; } }
+    .especialestexto2 {
+      padding-left: 80px;
+      text-align: justify;
+      gap: 10px; } }
 
 /* Fin estilos index */
 /* inicio estilos generales */
