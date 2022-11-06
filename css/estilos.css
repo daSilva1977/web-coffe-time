@@ -8459,15 +8459,8 @@ header {
 
 .variedad_calientes {
   padding: 10px;
-  background-color: #010710; }
-
-.patisserie {
-  background-color: #1d3557;
-  background-image: linear-gradient(90deg, #af4706 0%, #fda71d 30%, #cb5a05 100%);
-  display: flex;
-  flex-direction: column;
-  gap: 5px;
-  padding: 5px; }
+  background-color: #010710;
+  text-align: justify; }
 
 .especiales {
   background-image: linear-gradient(90deg, #af4706 0%, #fda71d 30%, #cb5a05 100%);
@@ -8477,6 +8470,9 @@ header {
     padding: 10px;
     text-align: center;
     gap: 5px; }
+
+.epeciales_texto2 {
+  text-align: justify; }
 
 .contacto {
   background-color: white;
@@ -8508,20 +8504,12 @@ header {
     background-position: center;
     text-align: center;
     padding: 4vw; }
-  .patisserie {
-    background-color: #1d3557;
-    background-image: linear-gradient(90deg, #af4706 0%, #fda71d 30%, #cb5a05 100%);
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 45px;
-    padding: 70px 40px; }
   .especiales {
     background-image: linear-gradient(90deg, #af4706 0%, #fda71d 30%, #cb5a05 100%);
     padding: 70px 40px;
     gap: 20px; }
     .especialestexto2 {
       padding-left: 80px;
-      text-align: justify;
       gap: 10px; }
   .variedad_calientes {
     padding: 30px;
@@ -8538,7 +8526,8 @@ header {
 
 .pedidos_calientes {
   padding: 10px;
-  background-color: #010710; }
+  background-color: #010710;
+  text-align: justify; }
 
 /* fin estilos frios y caliente celulares */
 /* fin experiencia celulares */
@@ -8586,7 +8575,8 @@ header {
 
 .pedidos_frios {
   padding: 10px;
-  background-color: #010710; }
+  background-color: #010710;
+  text-align: justify; }
 
 /* fin estilos frios y caliente celulares */
 /* fin experiencia celulares */
@@ -8604,7 +8594,7 @@ header {
 
 /* inicio estilos nosotros y vos celulares */
 .formulario_vos {
-  background-image: black;
+  background-image: white;
   background-position: left;
   padding: 20px;
   padding-top: 150px;
@@ -8613,6 +8603,8 @@ header {
     padding: 20px;
     background-position: center;
     text-align: center; }
+  .formulario_vos .blockquote {
+    text-align: justify; }
 
 /* fin estilos nosotros y vos celulares */
 /* fin experiencia celulares */
@@ -8633,6 +8625,9 @@ form {
   padding-top: 150px; }
 
 .texto_video2 {
+  text-align: justify; }
+
+.card-text {
   text-align: justify; }
 
 /* fin experiencia celulares */
